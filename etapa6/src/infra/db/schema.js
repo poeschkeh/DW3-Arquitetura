@@ -6,4 +6,5 @@ export const contatos = pgTable('contatos', {
   nome: text('nome').notNull(),
   email: text('email').notNull().unique(),
   telefone: text('telefone'),
+  cpf: text('cpf')
 });
